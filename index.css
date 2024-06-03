@@ -1,0 +1,20 @@
+article{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+img{
+    width: 800px;
+    height: 600px;
+    border: solid black;
+}
+.visible{
+    transition: all ease .5s;
+    display: flex;
+}
+.invisible{
+    transition: all ease .5s;
+    display: none;
+}
